@@ -20,10 +20,12 @@ Getting started
 If you are happy with the default options, make a new build directory,
 change to it, configure the build environment and build the project:
 
+```
   mkdir bin
   cd bin
   cmake ..
   cmake --build .
+```
 
 libssh2 will be built as a static library and will use any
 cryptography library available.  The library binary will be put in
